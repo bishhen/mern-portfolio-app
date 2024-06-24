@@ -6,11 +6,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary" : "#2C3E50",
-        "secondary" : "#F1C40F",
-        "tertiary" : "#1ABC9C",
+        "primary" : "#0A192F",
+        "secondary" : "#F97316",
+        "tertiary" : "#54D6BB",
       }
     },
+    screens: {
+     'lg': {'max': '2023px'},
+      
+     'sm': {'max': '1000px'},
+      
+    }
   },
   plugins: [],
 }
