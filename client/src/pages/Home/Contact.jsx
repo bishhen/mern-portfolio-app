@@ -24,12 +24,6 @@ function Contact() {
           <p className='text-white'>{'{'}</p>
           </div>
 
-          <div className='h-[500px]'>
-          <lottie-player src="https://lottie.host/823dca5e-61c0-43c6-8626-fa9b2c08c56d/vREaEegWKY.json"
-           background="##FFFFFF" 
-           speed="1" 
-           autoplay ></lottie-player>
-          </div>
         </div>
     </div>
   )
