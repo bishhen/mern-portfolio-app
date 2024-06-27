@@ -43,15 +43,15 @@ const aboutSchema = new mongoose.Schema({
 });
 
 const experienceSchema = new mongoose.Schema({
+    company: {
+        type: String,
+        required: true,
+    },
     title: {
         type: String,
         required: true,
     },
     period: {
-        type: String,
-        required: true,
-    },
-    company: {
         type: String,
         required: true,
     },
